@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	IPC
 %define	pnam	Run3
-Summary:	IPC::Run3 -  Run a subprocess in batch mode (a la system) on Unix, Win32, etc
+Summary:	IPC::Run3 - Run a subprocess in batch mode (a la system) on Unix, Win32, etc.
+Summary(pl):	IPC::Run3 - uruchamianie podprocesu w trybie wsadowym (tak jak system)
 Name:		perl-IPC-Run3
 Version:	0.01
 Release:	1
@@ -23,6 +24,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Run a subprocess in batch mode (a la system) on Unix, Win32, etc..
+
+%description -l pl
+Uruchamianie podprocesu w trybie wsadowym (tak jak system) na
+uniksach, Win32 itd.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

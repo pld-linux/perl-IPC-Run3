@@ -27,7 +27,7 @@ Run a subprocess in batch mode (a la system) on Unix, Win32, etc..
 
 %description -l pl
 Uruchamianie podprocesu w trybie wsadowym (tak jak system) na
-uniksach, Win32 itd.
+Uniksach, Win32 itd.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (one test fails)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IPC
-%define	pnam	Run3
+%define		pdir	IPC
+%define		pnam	Run3
 Summary:	IPC::Run3 - Run a subprocess in batch mode (a la system) on Unix, Win32, etc.
 Summary(pl):	IPC::Run3 - uruchamianie podprocesu w trybie wsadowym (tak jak system)
 Name:		perl-IPC-Run3

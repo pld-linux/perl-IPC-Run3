@@ -6,7 +6,7 @@
 %define		pdir	IPC
 %define		pnam	Run3
 Summary:	IPC::Run3 - Run a subprocess in batch mode (a la system) on Unix, Win32, etc.
-Summary(pl.UTF-8):   IPC::Run3 - uruchamianie podprocesu w trybie wsadowym (tak jak system)
+Summary(pl.UTF-8):	IPC::Run3 - uruchamianie podprocesu w trybie wsadowym (tak jak system)
 Name:		perl-IPC-Run3
 Version:	0.01
 Release:	1

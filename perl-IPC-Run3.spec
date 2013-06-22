@@ -8,12 +8,12 @@
 Summary:	IPC::Run3 - Run a subprocess in batch mode (a la system) on Unix, Win32, etc.
 Summary(pl.UTF-8):	IPC::Run3 - uruchamianie podprocesu w trybie wsadowym (tak jak system)
 Name:		perl-IPC-Run3
-Version:	0.045
+Version:	0.046
 Release:	1
 License:	BSD, GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/IPC/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e8913c03a8a6c6297a6e622d656e343a
+# Source0-md5:	c1c8f5605cae097e6fc118f7f1437dfd
 URL:		http://search.cpan.org/dist/IPC-Run3/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13

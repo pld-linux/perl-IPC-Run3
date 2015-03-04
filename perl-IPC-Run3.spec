@@ -12,7 +12,7 @@ Version:	0.048
 Release:	1
 License:	BSD, GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/IPC/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/IPC/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5a8cec571c51a118b265cf6e24e55761
 URL:		http://search.cpan.org/dist/IPC-Run3/
 BuildRequires:	perl-devel >= 1:5.8.0
